@@ -44,7 +44,7 @@ This project builds a personalized movie recommendation system using the Moviele
    - Build a hybrid recommendation system.  
 
 4. **Evaluation**:  
-   - Measure model performance using RMSE and MAE.  
+   - Measure model performance using RMSE.  
    - Validate results with cross-validation.  
 
 5. **Recommendations**:  
@@ -74,8 +74,8 @@ pip install -r requirements.txt
 
 ## **Results**  
 - **Model Performance**:  
-  - Hybrid Model: RMSE = 0.8324, MAE = 0.6211.  
-  - Baseline SVD Model: RMSE = 0.8812, MAE = 0.6772.  
+  - Optimized SVD: Training RMSE = 0.8055, Validating RMSE = 0.8718.  
+  - Baseline SVD Model: Training RMSE = 0.6363, Validating RMSE = 0.8738.  
 - **Cold Start Handling**: New users receive relevant recommendations based on popular genres.  
 
 ---
